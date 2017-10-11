@@ -5,6 +5,9 @@ header {
   left: 0;
   z-index: 11111; }
 
+.navbar {
+  border: none !important; }
+
 .navbar-nav {
   display: none; }
 
@@ -32,9 +35,6 @@ header {
     width: 100%;
     height: 100%;
     z-index: -1; }
-
-.lead {
-  font-size: 0.2rem; }
 
 .navbar-form {
   display: flex;
