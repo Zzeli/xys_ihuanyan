@@ -8,8 +8,7 @@
 	background-color: #030303;
 	h1{
 		  font-size: 0.7rem;
-		  line-height: 0.37;
-		  letter-spacing: 0.25rem;
+		  letter-spacing: 0.1rem;
 		  text-align: center;
 		  color: #ffffff;
 		  margin-top: 2.2rem;
@@ -450,21 +449,19 @@
     		  
     		}
    	}
+.case .col-md-3 {
+			min-height: 5.3rem;
+		}
+		.case .thumbnail {
+            min-height: 3rem;
+		}
 
    @media (min-width: 300px){
 	.container {
 		    width: 100%;
+		    padding: 0 0.24rem!important;
 		}
-		.case .col-md-3 {
-			min-height: 7.3rem;
-		}
-		.case .thumbnail {
-            min-height: 4rem;
-		}
-		.project .container p:nth-child(2),.doing .container p:nth-child(2){
-			padding: 0 0.24rem;
-
-		}
+	
 		.project .container p:nth-child(3){
 			width: 90%!important;
 			margin:0 auto;
@@ -472,6 +469,9 @@
 		}
 		 button{   
 				padding: 0.1rem 0.3rem;
+    		}
+    		.showView {
+    			right: 0.7rem;
     		}
 }
 
@@ -482,12 +482,7 @@
 	.navbar-nav{
 			display: block;
 		}
-				.case .col-md-3 {
-			min-height: 5.3rem;
-		}
-		.case .thumbnail {
-            min-height: 3rem;
-		}
+
 		.project .container p:nth-child(3){
 			width: 60%!important;
 			margin:0 auto;
@@ -500,6 +495,9 @@
      .col-md-3:nth-child(4){
    	width:100%!important;
    }
+   	.showView {
+    			right: 2.7rem;
+    		}
 
 }
 @media (min-width: 1024px){

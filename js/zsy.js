@@ -1,5 +1,5 @@
         // 常量 const
-        const designWidh=1920;
+        const designWidh=750;
         const fontSize= 100;
         function resizeFont(){
             // 变量 var
